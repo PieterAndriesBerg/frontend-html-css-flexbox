@@ -1,1 +1,56 @@
 /*Schrijf hier jouw CSS*/
+/*Schrijf hier jouw CSS*/
+
+.ul-opd1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ul-opd2 {
+    display: flex;
+}
+
+.ul-opd2 li {
+    flex-basis: 23em;
+}
+
+.ul-opd3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.li-topleft {
+    align-self: flex-start;
+}
+
+.li-center {
+    align-self: center;
+}
+
+.li-bottomright {
+    align-self: flex-end;
+}
+
+.ul-opd4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul-opd4 li {
+    margin: 5px;
+}
+
+.div-opd5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div-opd5 li {
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+
